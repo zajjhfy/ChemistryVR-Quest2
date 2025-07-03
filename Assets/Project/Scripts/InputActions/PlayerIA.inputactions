@@ -1,0 +1,34 @@
+{
+    "name": "PlayerIA",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "a03afbdf-3c99-42de-9d2c-86d91ab2bb09",
+            "actions": [
+                {
+                    "name": "Actions",
+                    "type": "Button",
+                    "id": "0af5d91e-1d5c-474d-b55c-a497dcc92ecf",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "25a86f20-95db-4a1d-98ed-1b860199e997",
+                    "path": "<OculusTouchController>{LeftHand}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Actions",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

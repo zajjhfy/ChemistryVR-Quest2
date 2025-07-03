@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 8e34f89df19443d4da7493dd3dfd64d4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_InteractionManager: {instanceID: 0}
+  - m_AttachTransform: {instanceID: 0}
+  - m_StartingSelectedInteractable: {instanceID: 0}
+  - m_StartingTargetFilter: {instanceID: 0}
+  - m_InteractableHoverMeshMaterial: {instanceID: 0}
+  - m_InteractableCantHoverMeshMaterial: {instanceID: 0}
+  - _attachLid: {fileID: 8300000, guid: ca15e7bee94154d4e866c5a01dbd72c3, type: 3}
+  - _detachLid: {fileID: 8300000, guid: 3f8c5d758cce90343be9780dcaeb847c, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

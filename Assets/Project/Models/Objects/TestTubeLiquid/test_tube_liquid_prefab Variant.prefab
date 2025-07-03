@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3771095134174662967
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 585842575958075719, guid: 37872d3740dcb2e47bb146f3874b4c84, type: 3}
+      propertyPath: objectInfo
+      value: "\u0441\u0443\u043B\u044C\u0444\u0430\u0442 \u043C\u0435\u0434\u0438(2)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3519839119785646749, guid: 37872d3740dcb2e47bb146f3874b4c84, type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 7229569685201341354}
+    - target: {fileID: 7344672486800292417, guid: 37872d3740dcb2e47bb146f3874b4c84, type: 3}
+      propertyPath: _liquid
+      value: 
+      objectReference: {fileID: 11400000, guid: bdf1407a46347414394f5f7e5a76d703, type: 2}
+    - target: {fileID: 7441909206456816370, guid: 37872d3740dcb2e47bb146f3874b4c84, type: 3}
+      propertyPath: m_Name
+      value: test_tube_liquid_prefab Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696040476037988784, guid: 37872d3740dcb2e47bb146f3874b4c84, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b79c128385465d6448e97b94df7c010a, type: 2}
+    - target: {fileID: 8743884997240676778, guid: 37872d3740dcb2e47bb146f3874b4c84, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8743884997240676778, guid: 37872d3740dcb2e47bb146f3874b4c84, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8743884997240676778, guid: 37872d3740dcb2e47bb146f3874b4c84, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8743884997240676778, guid: 37872d3740dcb2e47bb146f3874b4c84, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8743884997240676778, guid: 37872d3740dcb2e47bb146f3874b4c84, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8743884997240676778, guid: 37872d3740dcb2e47bb146f3874b4c84, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8743884997240676778, guid: 37872d3740dcb2e47bb146f3874b4c84, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8743884997240676778, guid: 37872d3740dcb2e47bb146f3874b4c84, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8743884997240676778, guid: 37872d3740dcb2e47bb146f3874b4c84, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8743884997240676778, guid: 37872d3740dcb2e47bb146f3874b4c84, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7441909206456816370, guid: 37872d3740dcb2e47bb146f3874b4c84, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7229569685201341354}
+  m_SourcePrefab: {fileID: 100100000, guid: 37872d3740dcb2e47bb146f3874b4c84, type: 3}
+--- !u!1 &5986242635214226373 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7441909206456816370, guid: 37872d3740dcb2e47bb146f3874b4c84, type: 3}
+  m_PrefabInstance: {fileID: 3771095134174662967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &7229569685201341354
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5986242635214226373}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f019f860f2eea6840a9f074fcc886299, type: 3}
+  m_Resource: {fileID: 8300000, guid: f019f860f2eea6840a9f074fcc886299, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 0.3
+  MaxDistance: 0.4
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
